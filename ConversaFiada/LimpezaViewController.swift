@@ -1,22 +1,21 @@
 //
-//  HortiViewController.swift
+//  LimpezaViewController.swift
 //  ConversaFiada
 //
-//  Created by aaav on 15/05/22.
+//  Created by aaav on 16/05/22.
 //
 
 import UIKit
 
-
-class HortiViewController: UIViewController {
+class LimpezaViewController: UIViewController {
 
     @IBOutlet var conversaFiada: UITextView!
-
+    
     lazy var conversasFiadas : Array<String> = getCSVData();
     
     func getCSVData() -> Array<String> {
         do {
-            let content = try String(contentsOfFile: "/Users/aaav/Documents/Coding/ConversaFiada/ConversaFiada/data/Hortifruti.csv")
+            let content = try String(contentsOfFile: "/Users/aaav/Documents/Coding/ConversaFiada/ConversaFiada/data/Carne.csv")
             
             let parsedCSV: [String] = content.components(
                 separatedBy: "\n"
@@ -37,20 +36,8 @@ class HortiViewController: UIViewController {
     }
     
     @IBAction func generateButton(_ sender: Any) {
-        
         let r = Int.random(in:0..<conversasFiadas.count)
         conversaFiada.text = conversasFiadas[r]
-        
-    }
-    
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
-
 }

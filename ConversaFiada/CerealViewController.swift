@@ -1,21 +1,19 @@
 //
-//  BebidaViewController.swift
+//  CerealViewController.swift
 //  ConversaFiada
 //
-//  Created by aaav on 15/05/22.
+//  Created by aaav on 16/05/22.
 //
 
 import UIKit
 
+class CerealViewController: UIViewController {
 
-class BebidaViewController: UIViewController {
-
+    
     @IBOutlet var conversaFiada: UITextView!
     
     
-    @IBOutlet var labelCSV: UILabel!
-    
-    lazy var conversasFiadas : Array<String> = getCSVData(str:labelCSV.text!);
+    lazy var conversasFiadas : Array<String> = getCSVData(str:"Cereais");
     
     
     override func viewDidLoad() {
@@ -48,10 +46,12 @@ class BebidaViewController: UIViewController {
            }
            return result
        }
-    
+
+
     @IBAction func generateButton(_ sender: Any) {
         let r = Int.random(in:0..<conversasFiadas.count)
         conversaFiada.text = conversasFiadas[r];
+        
     }
-
+    
 }

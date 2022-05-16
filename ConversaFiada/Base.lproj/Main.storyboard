@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--CONVERSA FIADA-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConversaFiada" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAb-qu-buq">
-                                <rect key="frame" x="20" y="688" width="374" height="174"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAb-qu-buq">
+                                <rect key="frame" x="20" y="727.5" width="374" height="134.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                 <state key="normal" title="Button"/>
@@ -27,7 +26,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="38"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rotation">
@@ -38,140 +37,121 @@
                                     <segue destination="yD5-4G-xyO" kind="show" id="ddk-8D-uWB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RS0-vi-jjU">
-                                <rect key="frame" x="20" y="384" width="210" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RS0-vi-jjU">
+                                <rect key="frame" x="20" y="359" width="132" height="206"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CEREAIS">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="38"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="SGc-NE-abd" kind="show" id="CZT-Ys-U2F"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M32-Dv-zU0" customClass="RotatedButton" customModule="ConversaFiada" customModuleProvider="target">
-                                <rect key="frame" x="183" y="453" width="277" height="136"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M32-Dv-zU0">
+                                <rect key="frame" x="20" y="605" width="132" height="83"/>
                                 <color key="tintColor" systemColor="systemPurpleColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="BEBIDAS">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="38"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
                                 </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="rotation">
-                                        <real key="value" value="0.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="tfA-jW-kxa" kind="show" id="Urg-Th-xCM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8R-5s-xCy" customClass="RotatedButton" customModule="ConversaFiada" customModuleProvider="target">
-                                <rect key="frame" x="-7" y="168" width="216" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8R-5s-xCy">
+                                <rect key="frame" x="203.5" y="122" width="190.5" height="179"/>
                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="LIMPEZA">
+                                <buttonConfiguration key="configuration" style="filled" title="LIMPEZA" titleAlignment="center">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="tintColor"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="38"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
                                 </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="rotation">
-                                        <real key="value" value="1.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="g6e-Kq-9ro" kind="show" id="5zf-qY-B0X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl2-yV-2ZV" customClass="RotatedButton" customModule="ConversaFiada" customModuleProvider="target">
-                                <rect key="frame" x="193" y="156" width="218" height="185"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl2-yV-2ZV">
+                                <rect key="frame" x="192" y="341" width="202" height="346.5"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="CARNES">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="38"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
                                 </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="rotation">
-                                        <real key="value" value="0.5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="vNP-oH-VHQ" kind="show" id="svI-Il-aph"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uob-IC-Xal" customClass="RotatedButton" customModule="ConversaFiada" customModuleProvider="target">
-                                <rect key="frame" x="20" y="550" width="210" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uob-IC-Xal">
+                                <rect key="frame" x="20" y="122" width="143.5" height="197"/>
                                 <color key="tintColor" systemColor="systemTealColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="FRIOS">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="38"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="25"/>
                                 </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="rotation">
-                                        <real key="value" value="11"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="5Aa-sY-z8w" kind="show" id="6mf-C2-1bL"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N1F-07-1Ya">
-                                <rect key="frame" x="154" y="356.5" width="80" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.12549020350000001" green="0.11372549830000001" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <imageReference key="image" image="cart.fill" catalog="system" symbolScale="small"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="30E-do-cpM">
-                                <rect key="frame" x="-5" y="524" width="80" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.12549020350000001" green="0.11372549830000001" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <imageReference key="image" image="cart.fill" catalog="system" symbolScale="small"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="nBG-A1-KCe">
-                                <rect key="frame" x="20" y="44" width="374" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eVF-PR-030">
-                                <rect key="frame" x="314" y="660" width="80" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N1F-07-1Ya">
+                                <rect key="frame" x="168.5" y="309" width="18.5" height="43"/>
                                 <color key="tintColor" red="0.12549020350000001" green="0.11372549830000001" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <imageReference key="image" image="cart.fill" catalog="system" symbolScale="small"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IAb-qu-buq" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="7Le-qF-MHx"/>
+                            <constraint firstItem="Uob-IC-Xal" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8Gt-7A-HUv"/>
+                            <constraint firstItem="IAb-qu-buq" firstAttribute="top" secondItem="M32-Dv-zU0" secondAttribute="bottom" constant="40" id="Cpx-Lm-m6G"/>
+                            <constraint firstItem="Uob-IC-Xal" firstAttribute="height" secondItem="k8R-5s-xCy" secondAttribute="height" multiplier="1.1" id="DBy-ca-z4h"/>
+                            <constraint firstItem="Yl2-yV-2ZV" firstAttribute="leading" secondItem="RS0-vi-jjU" secondAttribute="trailing" constant="40" id="H2l-Uj-hTt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yl2-yV-2ZV" secondAttribute="trailing" constant="20" id="HNV-UP-QVb"/>
+                            <constraint firstItem="Yl2-yV-2ZV" firstAttribute="leading" secondItem="N1F-07-1Ya" secondAttribute="trailing" constant="5" id="MWa-Gg-oJp"/>
+                            <constraint firstItem="M32-Dv-zU0" firstAttribute="top" secondItem="RS0-vi-jjU" secondAttribute="bottom" constant="40" id="MuI-be-A48"/>
+                            <constraint firstItem="Yl2-yV-2ZV" firstAttribute="leading" secondItem="M32-Dv-zU0" secondAttribute="trailing" constant="40" id="Nls-uf-yUi"/>
+                            <constraint firstItem="RS0-vi-jjU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Nn7-0E-3B7"/>
+                            <constraint firstItem="N1F-07-1Ya" firstAttribute="top" secondItem="k8R-5s-xCy" secondAttribute="bottom" constant="5" id="OKm-zo-dTI"/>
+                            <constraint firstItem="IAb-qu-buq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Pqa-0g-YUq"/>
+                            <constraint firstItem="RS0-vi-jjU" firstAttribute="top" secondItem="N1F-07-1Ya" secondAttribute="bottom" constant="5" id="QoU-mh-A8H"/>
+                            <constraint firstItem="k8R-5s-xCy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Shh-X2-h2N"/>
+                            <constraint firstItem="N1F-07-1Ya" firstAttribute="leading" secondItem="Uob-IC-Xal" secondAttribute="trailing" constant="5" id="VTf-az-s0Q"/>
+                            <constraint firstItem="k8R-5s-xCy" firstAttribute="leading" secondItem="Uob-IC-Xal" secondAttribute="trailing" constant="40" id="Vmb-pl-PEL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IAb-qu-buq" secondAttribute="bottom" id="WuA-7M-7ae"/>
+                            <constraint firstItem="M32-Dv-zU0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WzT-WL-KPQ"/>
+                            <constraint firstItem="IAb-qu-buq" firstAttribute="top" secondItem="Yl2-yV-2ZV" secondAttribute="bottom" constant="40" id="cCD-AY-WGK"/>
+                            <constraint firstItem="k8R-5s-xCy" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="l6n-FC-pY7"/>
+                            <constraint firstItem="M32-Dv-zU0" firstAttribute="height" relation="greaterThanOrEqual" secondItem="RS0-vi-jjU" secondAttribute="height" multiplier="0.4" id="lPV-Ky-5c8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k8R-5s-xCy" secondAttribute="trailing" constant="20" id="laX-Cj-Ael"/>
+                            <constraint firstItem="RS0-vi-jjU" firstAttribute="width" relation="lessThanOrEqual" secondItem="Yl2-yV-2ZV" secondAttribute="width" multiplier="0.8" id="mvB-VH-HUt"/>
+                            <constraint firstItem="RS0-vi-jjU" firstAttribute="top" secondItem="Uob-IC-Xal" secondAttribute="bottom" constant="40" id="pRl-92-fXu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IAb-qu-buq" secondAttribute="trailing" constant="20" id="smf-Av-SJf"/>
+                            <constraint firstItem="Yl2-yV-2ZV" firstAttribute="top" secondItem="k8R-5s-xCy" secondAttribute="bottom" constant="40" id="xoH-NI-WDt"/>
+                            <constraint firstItem="Uob-IC-Xal" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yOZ-jU-Dil"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Qlv-of-P2l"/>
-                    <connections>
-                        <outlet property="btnBev" destination="M32-Dv-zU0" id="6eT-ou-qOk"/>
-                        <outlet property="btnCereal" destination="RS0-vi-jjU" id="mvb-G2-2Cu"/>
-                        <outlet property="btnClean" destination="k8R-5s-xCy" id="5nZ-VM-dNA"/>
-                        <outlet property="btnFruit" destination="IAb-qu-buq" id="T5a-y7-uiz"/>
-                        <outlet property="btnMeat" destination="Yl2-yV-2ZV" id="gZR-qc-7WS"/>
-                        <outlet property="btnRefri" destination="Uob-IC-Xal" id="cDO-lx-buK"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="CONVERSA FIADA" prompt="CONVERSA FIADA" largeTitleDisplayMode="always" id="Qlv-of-P2l">
+                        <barButtonItem key="backBarButtonItem" title=" " id="jsf-MB-j8N"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3238" y="80"/>
+            <point key="canvasLocation" x="3237.68115942029" y="79.6875"/>
         </scene>
         <!--Horti-->
         <scene sceneID="2AY-Sd-v7C">
@@ -461,21 +441,20 @@
     </scenes>
     <designables>
         <designable name="M32-Dv-zU0">
-            <size key="intrinsicContentSize" width="187" height="59.5"/>
+            <size key="intrinsicContentSize" width="132" height="44"/>
         </designable>
         <designable name="Uob-IC-Xal">
-            <size key="intrinsicContentSize" width="137" height="59.5"/>
+            <size key="intrinsicContentSize" width="99" height="44"/>
         </designable>
         <designable name="Yl2-yV-2ZV">
-            <size key="intrinsicContentSize" width="179.5" height="59.5"/>
+            <size key="intrinsicContentSize" width="127" height="44"/>
         </designable>
         <designable name="k8R-5s-xCy">
-            <size key="intrinsicContentSize" width="190" height="59.5"/>
+            <size key="intrinsicContentSize" width="134" height="44"/>
         </designable>
     </designables>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
-        <image name="Logo" width="333" height="57"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

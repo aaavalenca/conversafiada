@@ -27,15 +27,16 @@ class BebidaViewController: UIViewController {
     
     func getCSVData(str : String) -> Array<String> {
         do {
-            let content = try String(contentsOfFile: "/Users/aaav/Documents/Coding/ConversaFiada/ConversaFiada/data/\(str).csv")
-            
-            let parsedCSV: [String] = content.components(
-                separatedBy: "\n"
-            ).map{ $0.components(separatedBy: ";")[1] }
-            return parsedCSV
-        }
-        catch {
-            return []
+            let path = Bundle.main.url(forResource: "Bebidas", withExtension: "csv")
+            do {
+                let content = try String(contentsOf: path!, encoding: .utf8)
+                print(content)
+                let parsedCSV: [String] = content.components(
+                    separatedBy: "\n").map{ $0.components(separatedBy: ";")[1] }
+                return parsedCSV
+            } catch  {
+                return []
+            }
         }
     }
     

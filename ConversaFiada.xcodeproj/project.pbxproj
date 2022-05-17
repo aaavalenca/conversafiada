@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8A20F88C2831A426006BA4B9 /* BebidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20F88B2831A426006BA4B9 /* BebidaViewController.swift */; };
-		8A20F89E28328977006BA4B9 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 8A20F89D28328977006BA4B9 /* data */; };
 		8A3DF78128329833007D7432 /* CerealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3DF78028329833007D7432 /* CerealViewController.swift */; };
 		8A77921228317FF900D2405F /* HortiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A77921128317FF900D2405F /* HortiViewController.swift */; };
+		8A7B2EB028332FC300696333 /* Hortifruti.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B2EAA28332FC300696333 /* Hortifruti.csv */; };
+		8A7B2EB128332FC300696333 /* Limpeza.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B2EAB28332FC300696333 /* Limpeza.csv */; };
+		8A7B2EB328332FC300696333 /* Carne.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B2EAD28332FC300696333 /* Carne.csv */; };
+		8A7B2EB428332FC300696333 /* Cereais.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B2EAE28332FC300696333 /* Cereais.csv */; };
+		8A7B2EB7283332D200696333 /* Frios.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B2EB6283332D200696333 /* Frios.csv */; };
+		8A7B2EB9283332FF00696333 /* Bebidas.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B2EB8283332FF00696333 /* Bebidas.csv */; };
 		8A7DAD292832F50900C558E4 /* LimpezaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DAD282832F50900C558E4 /* LimpezaViewController.swift */; };
 		8A7DAD2A2832F50900C558E4 /* FriosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DAD272832F50900C558E4 /* FriosViewController.swift */; };
 		8A85267E282DB00E00125BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A85267D282DB00E00125BD6 /* AppDelegate.swift */; };
@@ -24,9 +29,14 @@
 
 /* Begin PBXFileReference section */
 		8A20F88B2831A426006BA4B9 /* BebidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidaViewController.swift; sourceTree = "<group>"; };
-		8A20F89D28328977006BA4B9 /* data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = data; sourceTree = SOURCE_ROOT; };
 		8A3DF78028329833007D7432 /* CerealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealViewController.swift; sourceTree = "<group>"; };
 		8A77921128317FF900D2405F /* HortiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HortiViewController.swift; sourceTree = "<group>"; };
+		8A7B2EAA28332FC300696333 /* Hortifruti.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = Hortifruti.csv; path = data/Hortifruti.csv; sourceTree = "<group>"; };
+		8A7B2EAB28332FC300696333 /* Limpeza.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = Limpeza.csv; path = data/Limpeza.csv; sourceTree = "<group>"; };
+		8A7B2EAD28332FC300696333 /* Carne.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = Carne.csv; path = data/Carne.csv; sourceTree = "<group>"; };
+		8A7B2EAE28332FC300696333 /* Cereais.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cereais.csv; path = data/Cereais.csv; sourceTree = "<group>"; };
+		8A7B2EB6283332D200696333 /* Frios.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = Frios.csv; path = data/Frios.csv; sourceTree = "<group>"; };
+		8A7B2EB8283332FF00696333 /* Bebidas.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = Bebidas.csv; path = data/Bebidas.csv; sourceTree = "<group>"; };
 		8A7DAD272832F50900C558E4 /* FriosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriosViewController.swift; sourceTree = "<group>"; };
 		8A7DAD282832F50900C558E4 /* LimpezaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimpezaViewController.swift; sourceTree = "<group>"; };
 		8A85267A282DB00E00125BD6 /* ConversaFiada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversaFiada.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +64,7 @@
 		8A7DAD2B2832F51900C558E4 /* Especific ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A77921128317FF900D2405F /* HortiViewController.swift */,
 				8A7DAD272832F50900C558E4 /* FriosViewController.swift */,
 				8A7DAD282832F50900C558E4 /* LimpezaViewController.swift */,
 				8A20F88B2831A426006BA4B9 /* BebidaViewController.swift */,
@@ -66,6 +77,12 @@
 		8A852671282DB00E00125BD6 = {
 			isa = PBXGroup;
 			children = (
+				8A7B2EB8283332FF00696333 /* Bebidas.csv */,
+				8A7B2EB6283332D200696333 /* Frios.csv */,
+				8A7B2EAD28332FC300696333 /* Carne.csv */,
+				8A7B2EAE28332FC300696333 /* Cereais.csv */,
+				8A7B2EAA28332FC300696333 /* Hortifruti.csv */,
+				8A7B2EAB28332FC300696333 /* Limpeza.csv */,
 				8A85267C282DB00E00125BD6 /* ConversaFiada */,
 				8A85267B282DB00E00125BD6 /* Products */,
 			);
@@ -82,8 +99,6 @@
 		8A85267C282DB00E00125BD6 /* ConversaFiada */ = {
 			isa = PBXGroup;
 			children = (
-				8A20F89D28328977006BA4B9 /* data */,
-				8A77921128317FF900D2405F /* HortiViewController.swift */,
 				8A7DAD2B2832F51900C558E4 /* Especific ViewControllers */,
 				8A85267D282DB00E00125BD6 /* AppDelegate.swift */,
 				8A85267F282DB00E00125BD6 /* SceneDelegate.swift */,
@@ -154,9 +169,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7B2EB9283332FF00696333 /* Bebidas.csv in Resources */,
+				8A7B2EB7283332D200696333 /* Frios.csv in Resources */,
+				8A7B2EB028332FC300696333 /* Hortifruti.csv in Resources */,
+				8A7B2EB128332FC300696333 /* Limpeza.csv in Resources */,
+				8A7B2EB328332FC300696333 /* Carne.csv in Resources */,
+				8A7B2EB428332FC300696333 /* Cereais.csv in Resources */,
 				8A85268A282DB01000125BD6 /* LaunchScreen.storyboard in Resources */,
 				8A852687282DB01000125BD6 /* Assets.xcassets in Resources */,
-				8A20F89E28328977006BA4B9 /* data in Resources */,
 				8A852685282DB00E00125BD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.ConversaFiada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -363,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.ConversaFiada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

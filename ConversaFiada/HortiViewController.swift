@@ -16,15 +16,16 @@ class HortiViewController: UIViewController {
     
     func getCSVData() -> Array<String> {
         do {
-            let content = try String(contentsOfFile: "/Users/aaav/Documents/Coding/ConversaFiada/ConversaFiada/data/Hortifruti.csv")
-            
-            let parsedCSV: [String] = content.components(
-                separatedBy: "\n"
-            ).map{ $0.components(separatedBy: ";")[1] }
-            return parsedCSV
-        }
-        catch {
-            return []
+            let path = Bundle.main.url(forResource: "Hortifruti", withExtension: "csv")
+            do {
+                let content = try String(contentsOf: path!, encoding: .utf8)
+                print(content)
+                let parsedCSV: [String] = content.components(
+                    separatedBy: "\n").map{ $0.components(separatedBy: ";")[1] }
+                return parsedCSV
+            } catch  {
+                return []
+            }
         }
     }
     

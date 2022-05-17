@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--CONVERSA FIADA-->
+        <!--CONVERSA A FIADO-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConversaFiada" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M32-Dv-zU0">
-                                <rect key="frame" x="20" y="605" width="132" height="83"/>
+                                <rect key="frame" x="20" y="605" width="132" height="82.5"/>
                                 <color key="tintColor" systemColor="systemPurpleColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="BEBIDAS">
@@ -145,7 +145,7 @@
                             <constraint firstItem="Uob-IC-Xal" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yOZ-jU-Dil"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="CONVERSA FIADA" prompt="CONVERSA FIADA" largeTitleDisplayMode="always" id="Qlv-of-P2l">
+                    <navigationItem key="navigationItem" title="CONVERSA A FIADO" prompt="CONVERSA A FIADO" largeTitleDisplayMode="always" id="Qlv-of-P2l">
                         <barButtonItem key="backBarButtonItem" title=" " id="jsf-MB-j8N"/>
                     </navigationItem>
                 </viewController>
@@ -439,20 +439,6 @@
             <point key="canvasLocation" x="3238" y="-678"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="M32-Dv-zU0">
-            <size key="intrinsicContentSize" width="132" height="44"/>
-        </designable>
-        <designable name="Uob-IC-Xal">
-            <size key="intrinsicContentSize" width="99" height="44"/>
-        </designable>
-        <designable name="Yl2-yV-2ZV">
-            <size key="intrinsicContentSize" width="127" height="44"/>
-        </designable>
-        <designable name="k8R-5s-xCy">
-            <size key="intrinsicContentSize" width="134" height="44"/>
-        </designable>
-    </designables>
     <color key="tintColor" systemColor="tintColor"/>
     <resources>
         <image name="cart.fill" catalog="system" width="128" height="102"/>

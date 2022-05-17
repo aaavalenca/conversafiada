@@ -16,15 +16,16 @@ class FriosViewController: UIViewController {
     
     func getCSVData() -> Array<String> {
         do {
-            let content = try String(contentsOfFile: "/Users/aaav/Documents/Coding/ConversaFiada/ConversaFiada/data/Frios.csv")
-            
-            let parsedCSV: [String] = content.components(
-                separatedBy: "\n"
-            ).map{ $0.components(separatedBy: ";")[1] }
-            return parsedCSV
-        }
-        catch {
-            return []
+            let path = Bundle.main.url(forResource: "Frios", withExtension: "csv")
+            do {
+                let content = try String(contentsOf: path!, encoding: .utf8)
+                print(content)
+                let parsedCSV: [String] = content.components(
+                    separatedBy: "\n").map{ $0.components(separatedBy: ";")[1] }
+                return parsedCSV
+            } catch  {
+                return []
+            }
         }
     }
     
@@ -37,7 +38,7 @@ class FriosViewController: UIViewController {
     }
     
     @IBAction func generateButton(_ sender: Any) {
-        
+//        print(conversasFiadas)
         let r = Int.random(in:0..<conversasFiadas.count)
         conversaFiada.text = conversasFiadas[r]
     }
